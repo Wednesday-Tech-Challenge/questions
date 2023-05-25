@@ -5,6 +5,7 @@ def is_palindrome(string):
     # Check if string is equal to its reverse
     return string == string[::-1]
 
+
 # Prompt user for input sentence
 while True:
     sentence = input("Please enter a sentence: ")

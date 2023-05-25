@@ -1,5 +1,7 @@
 # Your code goes here
 vowels = ['a', 'e', 'i', 'o', 'u']
+
+
 def find_vowels(str):
     string = str.lower()
     vowel_count = 0
@@ -12,6 +14,7 @@ def find_vowels(str):
     return vowel_count, vowels_found
 
 # Test Cases
+
 
 print(find_vowels("Hello World!"))
 print(find_vowels("Uppercase Example"))
